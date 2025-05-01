@@ -2,7 +2,8 @@ package com.example.kotlindersleri.nesne_tabanli_programlama
 
 fun main() {
     val f = Fonksiyonlar()
-    //void = unit
+
+    //void = Unit
     f.selamla1()
 
     //return
@@ -10,9 +11,7 @@ fun main() {
     println("Gelen Sonuç : $gelenSonuc")
 
     //parametre
-    f.selamla3("Tamer")
+    f.selamla3("Zeynep")
 
-    f.topla( 10 ,20,"Tamer")
-
-
+    f.topla(10,20,"Beyza")
 }
